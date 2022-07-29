@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-        <p>VUE Burger &copy; 2022</p>
+        <p>&copy; 2022 - Todos os direitos reservados: Celina F. Ribeiro</p>
     </div>
 </template>
 
@@ -10,11 +10,11 @@
     }
 </script>
 
-<style scope>
+<style scoped>
     #footer {
         height: 200px;
         background-color: #222;
-        border-top: 4px solid #111;
+        border-top: 1px solid #111;
         color: #fcba03;
         display: flex;
         align-items: center;
