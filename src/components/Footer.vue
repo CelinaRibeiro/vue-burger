@@ -15,7 +15,7 @@
         height: 200px;
         background-color: #222;
         border-top: 1px solid #111;
-        color: #fcba03;
+        color: #E49524;
         display: flex;
         align-items: center;
         justify-content: center;

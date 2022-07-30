@@ -33,7 +33,7 @@
     height: 40px;
   }
   #nav a {
-    color: #FCBA03;
+    color: #E49524;
     text-decoration: none;
     margin: 12px;
     transition: .5s;
