@@ -95,25 +95,6 @@
       "id": 1
     },
     {
-      "nome": "Maria",
-      "carne": "Veggie burger",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
-      "nome": "Maria",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Batata",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 3
-    },
-    {
       "nome": "Paulo",
       "carne": "Contra filé",
       "pao": "Bagete",
@@ -124,6 +105,40 @@
       ],
       "status": "Solicitado",
       "id": 4
+    },
+    {
+      "nome": "Mary",
+      "carne": "Veggie burger",
+      "pao": "Frances",
+      "opcionais": [
+        "Batata",
+        "Ovo"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "nome": "Pedro",
+      "carne": "Alcatra",
+      "pao": "Bagete",
+      "opcionais": [
+        "Cebola roxa",
+        "Batata",
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "nome": "Maisa",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Tomate",
+        "Ovo"
+      ],
+      "status": "Solicitado",
+      "id": 7
     }
   ]
 }
