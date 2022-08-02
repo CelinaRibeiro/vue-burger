@@ -91,7 +91,7 @@
         "Batata",
         "Cebola roxa"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 1
     },
     {
@@ -103,7 +103,7 @@
         "Tomate",
         "Ovo"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 4
     },
     {
@@ -137,8 +137,20 @@
         "Tomate",
         "Ovo"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 7
+    },
+    {
+      "nome": "Vilmar",
+      "carne": "Contra filé",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Batata",
+        "Bacon",
+        "Cebola roxa"
+      ],
+      "status": "Em produção",
+      "id": 8
     }
   ]
 }
