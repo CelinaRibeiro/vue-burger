@@ -1,5 +1,6 @@
 <template>
    <div id="burger-table">
+         <Message :msg="msg" v-show="msg" />
         <div>
             <div id="burger-table-heading">
                 <div class="order-id">#</div>
@@ -37,7 +38,7 @@
 </template>
 
 <script>
-import { throwStatement } from '@babel/types';
+import Message from './Message.vue';
 
    export default {
         name: 'Dashboard',
@@ -45,8 +46,12 @@ import { throwStatement } from '@babel/types';
             return {
                 burgers: null,
                 burger_id: null,
-                status: []
+                status: [],
+                msg: null
             }
+        },
+        components: {
+            Message
         },
         methods: {
             async getPedidos() {
@@ -74,6 +79,12 @@ import { throwStatement } from '@babel/types';
 
                 const res = await req.json();
 
+                //colocar uma msg no sistema
+                this.msg = `Pedido removido com sucesso!`;
+
+                //limpar msg 
+                setTimeout(() => this.msg = "", 4000);
+
                 this.getPedidos();
 
             },
@@ -89,6 +100,12 @@ import { throwStatement } from '@babel/types';
                 });
 
                 const res = await req.json();
+
+                //colocar uma msg no sistema
+                this.msg = `O pedido nº ${res.id} foi atualizado para ${res.status}.`;
+
+                //limpar msg 
+                setTimeout(() => this.msg = "", 4000);
             }
         },
         mounted() {
@@ -135,7 +152,7 @@ import { throwStatement } from '@babel/types';
         color: #fff;
         font-weight: 500;
         border: 1px solid #fff;
-        padding: 9px 20px;
+        padding: 9px 10px;
         margin: 0 auto;
         border-radius: 3px;
         cursor: pointer;
